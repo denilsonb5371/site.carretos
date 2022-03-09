@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+
+:root{
+--cor0: #98D1F5;
+--cor1: #5AAADB;
+--cor2: #4582A8;
+--cor3: #26475C;
+--cor4: #184561;
+
+--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+
+}
+
+body{
+background-color: var(--cor1);
+margin: 0px 0px;
+padding: 0px 0px;
+
+
+
+}
+
+
+nav{
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 2.0em;
+    font-weight: bold;
+    text-decoration: underline;
+    color: aliceblue;
+    background-image: linear-gradient(to bottom transparent 20%, var(--cor1)50%, transparent 20%);
+    }
+    
+    nav > a{
+        background-image: linear-gradient(to bottom, var(--cor1) 5%, var(--cor2)87%, var(--cor1)13%);
+    
+    
+    }
+    
+    nav > a:hover{
+    color: var(--cor2);
+    
+    
+    }
+    
+    header{
+        margin: 0px 25px 0px 25px;
+        padding: 10px 10px 10px 10px;
+        background-color: var(--cor1);
+    }
+    
+    header div{
+        display: inline-block;
+        background-color: var(--cor2);
+        border:1px solid var(--cor4);
+        width: 100%;
+        margin: auto;
+        
+         }
+    
+         header h1{
+            text-align: center;
+            font-family: var(--fonte-padrao);
+            font-size: 2.5em;
+            line-height: 2.0em;
+            font-weight: bold;
+            text-decoration: underline;
+            color: aliceblue;
+         }
+    
+    
+        header h1:hover{
+        color: var(--cor4);
+    
+    
+        }
+
+        header > h2{
+            text-align: center;
+            font-family: var(--fonte-padrao);
+            font-size: 2.5em;
+            line-height: 1.5em;
+            font-weight: bold;
+            text-decoration: underline;
+            }
+    
+        
+    header div > h2{
+          text-align: center;
+          font-family: var(--fonte-padrao);
+          font-size: 2.5em;
+          line-height: 1.8em;
+          font-weight: bold;
+          text-decoration: underline;
+          color: aliceblue;
+         }
+        
+    header div > h2:hover{
+          color: var(--cor4);
+         }
+        
+    header div > p{
+        text-align: justify;
+        font-family: var(--fonte-padrao);
+        font-size: 2.0em;
+        line-height: 1.5em;
+        text-align: center;
+        color: aliceblue;
+         }
+        
+    header div > p > strong{
+        color: aliceblue;
+        font-weight: bold;
+         }
+        
+    header div > p > strong:hover{
+          color: var(--cor4);
+        
+         }
+    header img {
+    
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+    
+    footer{
+        background-color: var(--cor1);
+        margin: 0px 7px 0px 7px;
+          padding: 30px 30px;
+          width: auto;
+          margin: auto;
+          text-align: center;
+          font-family: var(--fonte-padrao);
+          font-weight: bold;
+      }
+      footer:hover{
+      color: var(--cor4);
+      
+      
+      }
+
+      footer{
+        background-color: var(--cor1);
+        margin: 0px 7px 0px 7px;
+          padding: 30px 30px;
+          width: auto;
+          margin: auto;
+          text-align: center;
+          font-family: var(--fonte-padrao);
+          font-weight: bold;
+      }
+      footer:hover{
+      color: var(--cor4);
+      
+      
+      }
