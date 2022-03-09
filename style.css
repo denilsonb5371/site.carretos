@@ -75,7 +75,6 @@ padding: 10px 15px 10px 15px;
 width: auto;
 margin: auto;
 text-align: center;
-box-shadow: 40px 40px 40px solid black;
 }
 
 nav > a {
@@ -86,7 +85,7 @@ font-family: var(--fonte-padrao);
 padding: 7px 15px;
 margin: 0px 20px 0px 20px;
 text-align: center;
-}
+ }
 
 nav > a:hover {
  background-color: var(--cor2);
@@ -97,7 +96,7 @@ nav > a:hover {
 nav img{
 display: block;
 margin: auto;
-max-width: 450px;
+max-width: 400px;
 }
 
 main{
@@ -169,8 +168,6 @@ main div{
 display: inline-block;
 background-color: var(--cor2);
 border:1px solid var(--cor4);
-padding: 15px 15px;
-margin: 2px 15px 2px 28px;
  }
 
  main div > h2{
@@ -219,34 +216,11 @@ background-color: var(--cor1);
   display: inline-block;
   background-color: var(--cor2);
   border:1px solid var(--cor4);
-  padding: 10px 10px;
-  margin: 15px 25px 15px 34px;
+  margin: auto;
+  padding: auto;
   
    }
 
-   article > h1{
-    text-align: center;
-    font-weight: bold;
-    font-family: var(--fonte-padrao);
-    font-size: 3em;
-    text-decoration: underline;
-    
-    }
-    
-    article > h1:hover{
-      color: var(--cor4);
-      
-      }
-
-      article div {
-     margin: -15px 15px;
-     padding: 15px 25px;
-     width: 100%;
-
-
-
-      }
-  
    article div > h1{
     text-align: center;
     font-family: var(--fonte-padrao);
@@ -262,6 +236,23 @@ background-color: var(--cor1);
   
   
    }
+
+   article > h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    text-decoration: underline;
+    
+    }
+    
+    article > h1:hover{
+      color: var(--cor4);
+      
+      }
+
+
+
   
    article div > p{
   font-family: var(--fonte-padrao);
@@ -384,3 +375,4 @@ color: var(--cor4);
 
 
 }
+
